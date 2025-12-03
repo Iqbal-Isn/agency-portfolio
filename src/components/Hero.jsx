@@ -71,13 +71,13 @@ function Hero() {
           </div>
 
           {/* Achievements/Pencapaian */}
-          <div className="mt-20 grid grid-cols-1 md:grid-cols-3 gap-8 max-w-6xl mx-auto animate-slide-up animation-delay-600">
-            <div className="group relative bg-white/10 backdrop-blur-lg rounded-2xl p-8 border border-white/20 hover:bg-white/15 transition-all duration-500 transform hover:scale-105 hover:-translate-y-2">
+          <div className="mt-16 sm:mt-20 grid grid-cols-3 gap-3 sm:gap-6 md:gap-8 max-w-4xl md:max-w-6xl mx-auto animate-slide-up animation-delay-600">
+            <div className="group relative bg-white/10 backdrop-blur-lg rounded-xl sm:rounded-2xl p-4 sm:p-6 md:p-8 border border-white/20 hover:bg-white/15 transition-all duration-500 transform hover:scale-105 hover:-translate-y-2">
               <div className="absolute inset-0 bg-gradient-to-br from-whatsapp/20 to-transparent rounded-2xl opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
               <div className="relative z-10 flex flex-col items-center text-center">
-                <div className="w-20 h-20 bg-gradient-to-br from-whatsapp to-green-400 rounded-2xl flex items-center justify-center mb-6 shadow-lg group-hover:shadow-whatsapp/25 transition-all duration-500">
+                <div className="w-12 h-12 sm:w-16 sm:h-16 md:w-20 md:h-20 bg-gradient-to-br from-whatsapp to-green-400 rounded-xl sm:rounded-2xl flex items-center justify-center mb-3 sm:mb-4 md:mb-6 shadow-lg group-hover:shadow-whatsapp/25 transition-all duration-500">
                   <svg
-                    className="w-10 h-10 text-white"
+                    className="w-6 h-6 sm:w-8 sm:h-8 md:w-10 md:h-10 text-white"
                     fill="none"
                     stroke="currentColor"
                     viewBox="0 0 24 24"
@@ -90,23 +90,24 @@ function Hero() {
                     />
                   </svg>
                 </div>
-                <h3 className="text-4xl md:text-5xl font-black text-white mb-3 group-hover:text-whatsapp transition-colors duration-500">
+                <h3 className="text-xl sm:text-3xl md:text-4xl lg:text-5xl font-black text-white mb-2 sm:mb-3 group-hover:text-whatsapp transition-colors duration-500">
                   100%
                 </h3>
-                <p className="text-xl font-bold text-white mb-2">Client Puas</p>
-                <p className="text-white/80 leading-relaxed">
-                  Tingkat kepuasan pelanggan tertinggi dengan hasil yang
-                  memuaskan
+                <p className="text-sm sm:text-lg md:text-xl font-bold text-white mb-1 sm:mb-2">
+                  Client Puas
+                </p>
+                <p className="hidden sm:block text-xs sm:text-sm md:text-base text-white/80 leading-relaxed">
+                  Tingkat kepuasan pelanggan tertinggi
                 </p>
               </div>
             </div>
 
-            <div className="group relative bg-white/10 backdrop-blur-lg rounded-2xl p-8 border border-white/20 hover:bg-white/15 transition-all duration-500 transform hover:scale-105 hover:-translate-y-2">
+            <div className="group relative bg-white/10 backdrop-blur-lg rounded-xl sm:rounded-2xl p-4 sm:p-6 md:p-8 border border-white/20 hover:bg-white/15 transition-all duration-500 transform hover:scale-105 hover:-translate-y-2">
               <div className="absolute inset-0 bg-gradient-to-br from-blue-500/20 to-transparent rounded-2xl opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
               <div className="relative z-10 flex flex-col items-center text-center">
-                <div className="w-20 h-20 bg-gradient-to-br from-blue-500 to-cyan-400 rounded-2xl flex items-center justify-center mb-6 shadow-lg group-hover:shadow-blue-500/25 transition-all duration-500">
+                <div className="w-12 h-12 sm:w-16 sm:h-16 md:w-20 md:h-20 bg-gradient-to-br from-blue-500 to-cyan-400 rounded-xl sm:rounded-2xl flex items-center justify-center mb-3 sm:mb-4 md:mb-6 shadow-lg group-hover:shadow-blue-500/25 transition-all duration-500">
                   <svg
-                    className="w-10 h-10 text-white"
+                    className="w-6 h-6 sm:w-8 sm:h-8 md:w-10 md:h-10 text-white"
                     fill="none"
                     stroke="currentColor"
                     viewBox="0 0 24 24"
@@ -119,25 +120,24 @@ function Hero() {
                     />
                   </svg>
                 </div>
-                <h3 className="text-4xl md:text-5xl font-black text-white mb-3 group-hover:text-blue-400 transition-colors duration-500">
+                <h3 className="text-xl sm:text-3xl md:text-4xl lg:text-5xl font-black text-white mb-2 sm:mb-3 group-hover:text-blue-400 transition-colors duration-500">
                   50+
                 </h3>
-                <p className="text-xl font-bold text-white mb-2">
+                <p className="text-sm sm:text-lg md:text-xl font-bold text-white mb-1 sm:mb-2">
                   Website Diorder
                 </p>
-                <p className="text-white/80 leading-relaxed">
-                  Proyek website yang telah berhasil diselesaikan dengan
-                  kualitas terbaik
+                <p className="hidden sm:block text-xs sm:text-sm md:text-base text-white/80 leading-relaxed">
+                  Proyek website yang telah berhasil diselesaikan
                 </p>
               </div>
             </div>
 
-            <div className="group relative bg-white/10 backdrop-blur-lg rounded-2xl p-8 border border-white/20 hover:bg-white/15 transition-all duration-500 transform hover:scale-105 hover:-translate-y-2">
+            <div className="group relative bg-white/10 backdrop-blur-lg rounded-xl sm:rounded-2xl p-4 sm:p-6 md:p-8 border border-white/20 hover:bg-white/15 transition-all duration-500 transform hover:scale-105 hover:-translate-y-2">
               <div className="absolute inset-0 bg-gradient-to-br from-green-500/20 to-transparent rounded-2xl opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
               <div className="relative z-10 flex flex-col items-center text-center">
-                <div className="w-20 h-20 bg-gradient-to-br from-green-500 to-emerald-400 rounded-2xl flex items-center justify-center mb-6 shadow-lg group-hover:shadow-green-500/25 transition-all duration-500">
+                <div className="w-12 h-12 sm:w-16 sm:h-16 md:w-20 md:h-20 bg-gradient-to-br from-green-500 to-emerald-400 rounded-xl sm:rounded-2xl flex items-center justify-center mb-3 sm:mb-4 md:mb-6 shadow-lg group-hover:shadow-green-500/25 transition-all duration-500">
                   <svg
-                    className="w-10 h-10 text-white"
+                    className="w-6 h-6 sm:w-8 sm:h-8 md:w-10 md:h-10 text-white"
                     fill="none"
                     stroke="currentColor"
                     viewBox="0 0 24 24"
@@ -150,15 +150,14 @@ function Hero() {
                     />
                   </svg>
                 </div>
-                <h3 className="text-3xl md:text-4xl font-black text-white mb-3 group-hover:text-green-400 transition-colors duration-500">
+                <h3 className="text-xl sm:text-3xl md:text-4xl lg:text-5xl font-black text-white mb-2 sm:mb-3 group-hover:text-green-400 transition-colors duration-500">
                   90%
                 </h3>
-                <p className="text-xl font-bold text-white mb-2">
+                <p className="text-sm sm:text-lg md:text-xl font-bold text-white mb-1 sm:mb-2">
                   Harga Terjangkau
                 </p>
-                <p className="text-white/80 leading-relaxed">
-                  Kualitas premium dengan harga yang bersaing dan terjangkau
-                  untuk UMKM
+                <p className="hidden sm:block text-xs sm:text-sm md:text-base text-white/80 leading-relaxed">
+                  Kualitas premium dengan harga terjangkau
                 </p>
               </div>
             </div>
