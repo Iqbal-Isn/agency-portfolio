@@ -1,6 +1,9 @@
 function Hero() {
   return (
-    <section className="relative w-full min-h-screen bg-gradient-to-br from-slate-900 via-purple-900 to-slate-900 overflow-hidden -mt-20">
+    <section
+      id="home"
+      className="relative w-full min-h-screen bg-gradient-to-br from-slate-900 via-purple-900 to-slate-900 overflow-hidden -mt-20"
+    >
       {/* Animated Background Elements */}
       <div className="absolute inset-0">
         {/* Floating Shapes */}
@@ -26,15 +29,15 @@ function Hero() {
           </div>
 
           {/* Tagline */}
-          <h1 className="text-3xl sm:text-4xl md:text-6xl lg:text-7xl font-black text-white leading-tight mb-6 animate-slide-up px-4">
+          <h1 className="text-3xl sm:text-4xl md:text-6xl lg:text-7xl tracking-tight font-black text-white leading-tight mb-6 animate-slide-up px-4">
             JASA PEMBUATAN
-            <span className="block bg-gradient-to-r from-whatsapp via-green-400 to-blue-500 bg-clip-text text-transparent animate-gradient">
+            <span className="block bg-gradient-to-r from-whatsapp via-green-400 to-blue-500 tracking-tight bg-clip-text text-transparent animate-gradient">
               WEBSITE PROFESIONAL
             </span>
           </h1>
 
           {/* Subtitle/Description */}
-          <p className="text-lg sm:text-xl md:text-2xl text-gray-300 max-w-4xl mx-auto mb-8 sm:mb-12 leading-relaxed animate-slide-up animation-delay-200 px-4">
+          <p className="text-md sm:text-xl md:text-2xl tracking-tighter text-gray-300 max-w-4xl mx-auto mb-8 sm:mb-12 leading-relaxed animate-slide-up animation-delay-200 px-4">
             Tingkatkan bisnis Anda dengan website profesional yang menarik
             pelanggan lebih banyak. Solusi website berkualitas tinggi untuk UMKM
             dengan harga terjangkau.
@@ -96,7 +99,7 @@ function Hero() {
                 <p className="text-sm sm:text-lg md:text-xl font-bold text-white mb-1 sm:mb-2">
                   Client Puas
                 </p>
-                <p className="hidden sm:block text-xs sm:text-sm md:text-base text-white/80 leading-relaxed">
+                <p className="hidden sm:block text-xs tracking-tighter sm:text-sm md:text-base text-white/80 leading-relaxed">
                   Tingkat kepuasan pelanggan tertinggi
                 </p>
               </div>
@@ -126,7 +129,7 @@ function Hero() {
                 <p className="text-sm sm:text-lg md:text-xl font-bold text-white mb-1 sm:mb-2">
                   Website Diorder
                 </p>
-                <p className="hidden sm:block text-xs sm:text-sm md:text-base text-white/80 leading-relaxed">
+                <p className="hidden sm:block text-xs sm:text-sm md:text-base tracking-tighter text-white/80 leading-relaxed">
                   Proyek website yang telah berhasil diselesaikan
                 </p>
               </div>
@@ -156,7 +159,7 @@ function Hero() {
                 <p className="text-sm sm:text-lg md:text-xl font-bold text-white mb-1 sm:mb-2">
                   Harga Terjangkau
                 </p>
-                <p className="hidden sm:block text-xs sm:text-sm md:text-base text-white/80 leading-relaxed">
+                <p className="hidden sm:block text-xs sm:text-sm md:text-base tracking-tighter text-white/80 leading-relaxed">
                   Kualitas premium dengan harga terjangkau
                 </p>
               </div>

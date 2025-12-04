@@ -3,6 +3,10 @@
 @tailwind utilities;
 
 @layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+
   body {
     @apply font-sans antialiased;
   }
@@ -112,4 +116,10 @@
 
 .animate-pulse-custom {
   animation: pulse-custom 2s ease-in-out infinite;
+}
+
+.logo-font {
+  font-family: "Alfa Slab One", serif;
+  font-weight: 400;
+  font-style: normal;
 }

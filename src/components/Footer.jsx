@@ -7,8 +7,8 @@ function Footer() {
           {/* Company Info */}
           <div className="lg:col-span-1">
             <div className="mb-6">
-              <h3 className="text-2xl font-bold mb-4">Heizuru</h3>
-              <p className="text-gray-300 leading-relaxed mb-6">
+              <h3 className="text-5xl font-bold mb-4 logo-font">H</h3>
+              <p className="text-gray-300 leading-relaxed mb-6 tracking-tighter">
                 Spesialis pembuatan website profesional untuk UMKM. Kami
                 membantu bisnis Anda go digital dengan website berkualitas
                 tinggi, responsif, dan user-friendly.
@@ -19,7 +19,7 @@ function Footer() {
             <div className="space-y-3">
               <div className="flex items-center">
                 <svg
-                  className="w-5 h-5 text-whatsapp mr-3 flex-shrink-0"
+                  className="w-5 h-5 text-white mr-3 flex-shrink-0"
                   fill="currentColor"
                   viewBox="0 0 20 20"
                 >
@@ -29,41 +29,47 @@ function Footer() {
                     clipRule="evenodd"
                   />
                 </svg>
-                <span className="text-gray-300">
-                  Jl. Sudirman No. 123, Jakarta
+                <span className="text-gray-300 tracking-tighter">
+                  Jl. Salak, Kec. Slawi, Kab. Tegal
                 </span>
               </div>
 
               <div className="flex items-center">
                 <svg
-                  className="w-5 h-5 text-whatsapp mr-3 flex-shrink-0"
+                  className="w-5 h-5 text-white mr-3 flex-shrink-0"
                   fill="currentColor"
                   viewBox="0 0 20 20"
                 >
                   <path d="M2 3a1 1 0 011-1h2.153a1 1 0 01.986.836l.74 4.435a1 1 0 01-.54 1.06l-1.548.773a11.037 11.037 0 006.105 6.105l.774-1.548a1 1 0 011.059-.54l4.435.74a1 1 0 01.836.986V17a1 1 0 01-1 1h-2C7.82 18 2 12.18 2 5V3z" />
                 </svg>
-                <span className="text-gray-300">+62 812-3456-7890</span>
+                <span className="text-gray-300 tracking-tighter">
+                  +62 859-1482-35736
+                </span>
               </div>
 
               <div className="flex items-center">
                 <svg
-                  className="w-5 h-5 text-whatsapp mr-3 flex-shrink-0"
+                  className="w-5 h-5 text-white mr-3 flex-shrink-0"
                   fill="currentColor"
                   viewBox="0 0 20 20"
                 >
                   <path d="M2.003 5.884L10 9.882l7.997-3.998A2 2 0 0016 4H4a2 2 0 00-1.997 1.884z" />
                   <path d="M18 8.118l-8 4-8-4V14a2 2 0 002 2h12a2 2 0 002-2V8.118z" />
                 </svg>
-                <span className="text-gray-300">hello@heizuru.com</span>
+                <span className="text-gray-300 tracking-tighter">
+                  hello@heizuru.com
+                </span>
               </div>
             </div>
           </div>
 
           {/* Quick Links */}
           <div className="lg:col-span-1">
-            <h4 className="text-xl font-semibold mb-6">Quick Links</h4>
+            <h4 className="text-xl font-semibold mb-6 tracking-tight">
+              Quick Links
+            </h4>
             <div className="grid grid-cols-2 gap-4">
-              <div className="space-y-3">
+              <div className="space-y-3 tracking-tighter">
                 <a
                   href="#home"
                   className="block text-gray-300 hover:text-white transition-colors duration-300"
@@ -94,10 +100,12 @@ function Footer() {
 
           {/* Google Maps */}
           <div className="lg:col-span-1">
-            <h4 className="text-xl font-semibold mb-6">Lokasi Kami</h4>
+            <h4 className="text-xl font-semibold mb-6 tracking-tight">
+              Lokasi Kami
+            </h4>
             <div className="bg-gray-800 rounded-lg overflow-hidden shadow-lg">
               <iframe
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3966.3!2d106.816666!3d-6.2!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zNsKwMTInMDAuMCJOIDEwNsKwNDknMDEuMiJF!5e0!3m2!1sen!2sid!4v1234567890123!5m2!1sen!2sid"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3961.628783643692!2d109.13807907497028!3d-6.965978000000001!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zNsKwNTcnNTcuNSJTIDEwOcKwMDgnMjYuNCJF!5e0!3m2!1sen!2sid!4v1701724800000!5m2!1sen!2sid"
                 width="100%"
                 height="200"
                 style={{ border: 0 }}
@@ -105,7 +113,7 @@ function Footer() {
                 loading="lazy"
                 referrerPolicy="no-referrer-when-downgrade"
                 className="w-full"
-                title="Lokasi Heizuru"
+                title="Lokasi Saya"
               ></iframe>
             </div>
           </div>
@@ -118,7 +126,9 @@ function Footer() {
           <div className="flex flex-col md:flex-row justify-between items-center gap-6">
             {/* Social Media */}
             <div className="flex items-center space-x-6">
-              <span className="text-gray-300 font-medium">Follow Us:</span>
+              <span className="text-gray-300 font-medium tracking-tighter">
+                Follow Us:
+              </span>
               <div className="flex space-x-4">
                 <a
                   href="#"
@@ -143,20 +153,7 @@ function Footer() {
                     fill="currentColor"
                     viewBox="0 0 24 24"
                   >
-                    <path d="M12.017 0C8.396 0 7.609.034 6.298.154 4.987.273 4.014.598 3.194.992c-.807.394-1.489.987-2.087 1.585C.5 3.175 0 3.85 0 5.17c0 1.32.5 2.002 1.107 2.6.598.598 1.28 1.191 2.087 1.585.82.394 1.793.719 3.104.838 1.311.12 2.098.154 5.719.154s4.408-.034 5.719-.154c1.311-.12 2.284-.444 3.104-.838.807-.394 1.489-.987 2.087-1.585C23.5 7.172 24 6.497 24 5.177c0-1.32-.5-2.002-1.107-2.6-.598-.598-1.28-1.191-2.087-1.585C20.987.394 20.014.07 18.703-.05 17.392-.17 16.605-.204 13.017-.204c-3.584 0-4.37.034-5.681.154C5.987.07 5.014.394 4.194.788 3.387 1.182 2.705 1.775 2.107 2.373.5 3.967 0 4.642 0 5.962c0 1.32.5 2.002 1.107 2.6.598.598 1.28 1.191 2.087 1.585.82.394 1.793.719 3.104.838 1.311.12 2.098.154 5.719.154s4.408-.034 5.719-.154c1.311-.12 2.284-.444 3.104-.838.807-.394 1.489-.987 2.087-1.585C23.5 8.972 24 8.297 24 6.977c0-1.32-.5-2.002-1.107-2.6-.598-.598-1.28-1.191-2.087-1.585C21.013 2.394 20.04 2.07 18.729 1.95c-1.311-.12-2.098-.154-5.719-.154zM12.017 5.8c-3.532 0-6.4 2.868-6.4 6.4s2.868 6.4 6.4 6.4 6.4-2.868 6.4-6.4-2.868-6.4-6.4-6.4zm0 10.56c-2.304 0-4.16-1.856-4.16-4.16s1.856-4.16 4.16-4.16 4.16 1.856 4.16 4.16-1.856 4.16-4.16 4.16zm6.24-11.52c-.828 0-1.5-.672-1.5-1.5s.672-1.5 1.5-1.5 1.5.672 1.5 1.5-.672 1.5-1.5 1.5z" />
-                  </svg>
-                </a>
-                <a
-                  href="#"
-                  className="w-10 h-10 bg-gray-800 rounded-full flex items-center justify-center text-gray-400 hover:text-white hover:bg-whatsapp transition-all duration-300"
-                  aria-label="LinkedIn"
-                >
-                  <svg
-                    className="w-5 h-5"
-                    fill="currentColor"
-                    viewBox="0 0 24 24"
-                  >
-                    <path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z" />
+                    <path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z" />
                   </svg>
                 </a>
                 <a

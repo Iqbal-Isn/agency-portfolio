@@ -14,9 +14,9 @@ function Navbar() {
         <div>
           <a
             href="/"
-            className="text-xl sm:text-2xl font-bold text-gray-800 no-underline transition-colors duration-300 hover:text-whatsapp"
+            className="text-3xl sm:text-4xl logo-font font-bold bg-gradient-to-r from-whatsapp via-green-400 to-blue-500 bg-clip-text text-transparent animate-gradient no-underline transition-all duration-300 hover:scale-110"
           >
-            Heizuru
+            H
           </a>
         </div>
 
@@ -115,7 +115,7 @@ function Navbar() {
             <ul className="flex flex-col gap-4 mb-6">
               <li>
                 <a
-                  href="#home"
+                  href="#"
                   className="block text-gray-800 font-medium py-2 px-3 rounded-lg hover:bg-gray-100 transition-colors duration-300"
                   onClick={() => setIsMenuOpen(false)}
                 >

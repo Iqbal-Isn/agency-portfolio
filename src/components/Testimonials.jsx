@@ -106,14 +106,17 @@ function Testimonials() {
   };
 
   return (
-    <section className="w-full bg-gray-50 py-16 md:py-20 lg:py-32">
+    <section
+      className="w-full bg-gray-50 py-16 md:py-20 lg:py-32"
+      id="testimonials"
+    >
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         {/* Section Header */}
         <div className="text-center mb-12 md:mb-16">
-          <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold text-gray-900 mb-4 px-4">
+          <h2 className="text-xl sm:text-3xl md:text-4xl tracking-tight font-bold text-gray-900 mb-4 px-4">
             Apa Kata Client Kami
           </h2>
-          <p className="text-base sm:text-lg md:text-xl text-gray-600 max-w-3xl mx-auto px-4">
+          <p className="text-base sm:text-lg md:text-xl tracking-tighter text-gray-600 max-w-3xl mx-auto px-4">
             Testimoni dari berbagai UMKM yang telah berhasil menggunakan jasa
             pembuatan website kami
           </p>
@@ -210,10 +213,10 @@ function Testimonials() {
         {/* CTA Section */}
         <div className="text-center mt-12 md:mt-16">
           <div className="bg-gradient-to-r from-whatsapp/10 to-whatsapp/5 rounded-2xl p-6 sm:p-8 md:p-12 mx-4 sm:mx-0">
-            <h3 className="text-xl sm:text-2xl md:text-3xl font-bold text-gray-900 mb-4">
+            <h3 className="text-xl sm:text-2xl md:text-3xl tracking-tight font-bold text-gray-900 mb-4">
               Siap Tingkatkan Bisnis Anda?
             </h3>
-            <p className="text-base sm:text-lg text-gray-600 mb-6 sm:mb-8 max-w-2xl mx-auto">
+            <p className="text-base sm:text-lg tracking-tighter text-gray-600 mb-6 sm:mb-8 max-w-2xl mx-auto">
               Dapatkan website profesional untuk UMKM Anda hari ini. Konsultasi
               gratis dan dapatkan penawaran terbaik dari tim ahli kami.
             </p>

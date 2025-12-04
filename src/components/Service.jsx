@@ -133,13 +133,12 @@ function Service() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         {/* Section Header */}
         <div className="text-center mb-16">
-          <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-4">
+          <h2 className="text-xl md:text-4xl tracking-tight font-bold text-gray-900 mb-4">
             Kenapa Memilih Heizuru?
           </h2>
-          <p className="text-lg md:text-xl text-gray-600 max-w-3xl mx-auto">
+          <p className="text-base md:text-xl tracking-tighter text-gray-600 max-w-3xl mx-auto">
             Kami menyediakan solusi website lengkap untuk bisnis UMKM Anda
-            dengan standar profesional dan harga yang terjangkau. Berikut adalah
-            alasan kenapa ribuan UMKM mempercayakan website mereka kepada kami.
+            dengan standar profesional dan harga yang terjangkau.
           </p>
         </div>
 
@@ -156,12 +155,12 @@ function Service() {
               </div>
 
               {/* Title */}
-              <h3 className="text-xl font-bold text-gray-900 mb-4 group-hover:text-whatsapp transition-colors duration-300">
+              <h3 className="text-lg tracking-tight font-bold text-gray-900 mb-4 group-hover:text-whatsapp transition-colors duration-300">
                 {service.title}
               </h3>
 
               {/* Description */}
-              <p className="text-gray-600 leading-relaxed">
+              <p className="text-gray-600 leading-relaxed tracking-tighter">
                 {service.description}
               </p>
             </div>

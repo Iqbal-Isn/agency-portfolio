@@ -73,10 +73,10 @@ function Portfolio() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         {/* Section Header */}
         <div className="text-center mb-16">
-          <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-4">
+          <h2 className="text-xl md:text-4xl tracking-tight font-bold text-gray-900 mb-4">
             Portfolio Unggulan
           </h2>
-          <p className="text-lg md:text-xl text-gray-600 max-w-3xl mx-auto">
+          <p className="text-base md:text-xl text-gray-600 max-w-3xl mx-auto tracking-tighter">
             Berikut adalah beberapa proyek website unggulan yang telah kami
             kerjakan untuk berbagai jenis bisnis UMKM
           </p>
@@ -135,29 +135,6 @@ function Portfolio() {
               </div>
             </div>
           ))}
-        </div>
-
-        {/* View More Button */}
-        <div className="text-center mt-12">
-          <a
-            href="#contact"
-            className="inline-flex items-center gap-2 px-8 py-4 bg-gray-100 text-gray-800 font-semibold rounded-lg hover:bg-gray-200 transition-colors duration-300"
-          >
-            <span>Lihat Semua Portfolio</span>
-            <svg
-              className="w-5 h-5"
-              fill="none"
-              stroke="currentColor"
-              viewBox="0 0 24 24"
-            >
-              <path
-                strokeLinecap="round"
-                strokeLinejoin="round"
-                strokeWidth={2}
-                d="M19 9l-7 7-7-7"
-              />
-            </svg>
-          </a>
         </div>
       </div>
     </section>
